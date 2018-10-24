@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import { PropTypes } from 'react';
 
 class Landing extends Component {
+ 
     render() {
         return (
             <div style={{width: '100%', margin: 'auto'}}>
@@ -14,7 +16,7 @@ class Landing extends Component {
                             <h1>Full Stack Web Developer</h1>
                             <hr />
                             <p>
-                                HTML / CSS | Javascript | React | Angular | Python | PHP | Laravel
+                                HTML / CSS | Javascript | React | Angular | Python | PHP | Laravel | Node
                             </p>
                             <div className="social-links">
                                 <a href="https://google.com" rel="noopener noreferrer" target="_blank">
